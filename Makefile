@@ -1,5 +1,5 @@
 a.out	: main.c
-	g++ -g main.c
+	gcc -std=c99 -g main.c
 
 clean	:
 	rm -f a.out
